@@ -106,7 +106,6 @@ class SelectNearest<D> extends ChartBehavior<D> {
           ..add(GestureType.onDrag);
         break;
       case common.SelectionTrigger.hover:
-      default:
         desiredGestures..add(GestureType.onHover);
         break;
     }
